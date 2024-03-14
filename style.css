@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(246, 215, 152);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+button{
+
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.W{
+    background: linear-gradient(to right,rgb(176, 230, 106), rgb(54, 118, 17) );
+   transition: transform 2s; 
+}
+
+.W:hover{
+    transform: translateY(-20px);
+}
+
+.I{
+    transition: transform 2s; 
+    background: linear-gradient(to right,rgb(106, 195, 230), rgb(116, 118, 238) );
+}
+
+.I:hover{
+    transform: translateY(-20px);
+}
+
+.H{ transition: transform 2s; 
+    background: linear-gradient(to right,rgb(40, 57, 84), rgb(159, 159, 163) );}
+
+.H:hover{
+    transform: translateY(-20px);
+}
+
+.WH{
+    background: linear-gradient(to right,rgb(221, 232, 96), rgb(151, 199, 37) );
+   transition: transform 2s; 
+}
+.WH:hover{
+    transform: translateY(-20px);
+}
+
+.Why{background: linear-gradient(to right,rgb(232, 128, 96), rgb(199, 37, 37) );
+    transition: transform 2s; }
+.Why:hover{
+    transform: translateY(-20px);
+}
+
+.S{
+    background: linear-gradient(to right,rgb(242, 204, 148), rgb(103, 66, 4) );
+   transition: transform 2s; 
+}
+
+.S:hover{
+    transform: translateY(-20px);
+}
